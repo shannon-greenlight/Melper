@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>C:\Users\shann\Dropbox\moog\Melper\Melper.kicad_sch</source>
-    <date>12/15/2022 2:42:31 PM</date>
+    <date>1/26/2023 2:31:45 PM</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>The Melper</title>
         <company/>
-        <rev>1.1</rev>
+        <rev>2.0</rev>
         <date/>
         <source>Melper.kicad_sch</source>
         <comment number="1" value=""/>
@@ -25,13 +25,13 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>.33uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
       <fields>
-        <field name="Digi-Key Part">445-173446-1-ND</field>
+        <field name="Digi-Key Part">399-20957-1-ND</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="445-173446-1-ND"/>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Digi-Key Part" value="399-20957-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -39,12 +39,12 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
       <fields>
-        <field name="Digi-Key Part">478-TAP106K016CRSCT-ND</field>
+        <field name="Digi-Key Part">399-20957-1-ND</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
-      <property name="Digi-Key Part" value="478-TAP106K016CRSCT-ND"/>
+      <property name="Digi-Key Part" value="399-20957-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -77,225 +77,43 @@
       <tstamps>38877d52-21ed-4701-a307-72007cd68f73</tstamps>
     </comp>
     <comp ref="C5">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
       <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>11f5e55f-9e95-4688-884f-b88931f13b98</tstamps>
-    </comp>
-    <comp ref="C6">
-      <value>22uF</value>
-      <footprint>Capacitor_THT:CP_Radial_Tantal_D6.0mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">478-7373-1-ND</field>
+        <field name="Digi-Key Part">399-20957-1-ND</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
-      <property name="Digi-Key Part" value="478-7373-1-ND"/>
+      <property name="Digi-Key Part" value="399-20957-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>56063459-099f-4eb4-b72e-5e5d102efbc7</tstamps>
+      <tstamps>2a74edf7-7aa3-4746-b45b-7d0642faf549</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Digi-Key Part">399-20957-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Digi-Key Part" value="399-20957-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Melper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>868da6fe-067b-44e1-924a-3ee124ee8ff7</tstamps>
     </comp>
     <comp ref="C7">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
       <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
+        <field name="Digi-Key Part">399-20957-1-ND</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Digi-Key Part" value="399-20957-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>09282253-4461-4f14-9cc7-efd40634f512</tstamps>
-    </comp>
-    <comp ref="C8">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6f547f6c-1434-4b1b-afad-b0bd8f44d00c</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b9764c71-fb62-435c-affc-65d7552d539c</tstamps>
-    </comp>
-    <comp ref="C10">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9cd15c11-783a-479c-987d-1c8c5d28cfd3</tstamps>
-    </comp>
-    <comp ref="C11">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ba924d49-a34e-4f60-a1ee-887bfa3bf2e3</tstamps>
-    </comp>
-    <comp ref="C12">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f1170a74-70eb-4b2c-bfca-8f6ec061334f</tstamps>
-    </comp>
-    <comp ref="C13">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8e31a8b0-9b04-4808-b7db-b4ea38283047</tstamps>
-    </comp>
-    <comp ref="C14">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>562db3bf-32b3-4416-b7af-4967195789e6</tstamps>
-    </comp>
-    <comp ref="C15">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1eac526e-a437-43c6-aa34-9bb624307fe5</tstamps>
-    </comp>
-    <comp ref="C16">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1dcd613a-c0e4-4d2c-81c9-8342f692ab6b</tstamps>
-    </comp>
-    <comp ref="C17">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e5aba905-d05e-45a2-a867-6d4a4ab33a82</tstamps>
-    </comp>
-    <comp ref="C18">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>62b4c032-527d-4021-ae24-a4a49832f8b0</tstamps>
-    </comp>
-    <comp ref="C19">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8a4f58d0-f9fc-4c19-be56-9caa5d7a0737</tstamps>
-    </comp>
-    <comp ref="C20">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>28e300ec-0282-4af7-9eae-d50aedfd0c43</tstamps>
-    </comp>
-    <comp ref="C21">
-      <value>.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
-      <fields>
-        <field name="Digi-Key Part">399-9877-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Digi-Key Part" value="399-9877-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Melper.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c5904913-88bb-49d0-b2fc-a77c7acde141</tstamps>
+      <tstamps>82c181a6-e0b9-4278-a7d0-e156cf2851d4</tstamps>
     </comp>
     <comp ref="D1">
       <value>RED LED</value>
@@ -359,11 +177,10 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
         <field name="Digi-Key Part">900-0022232021-ND</field>
-        <field name="LCSC Part #">snazzy</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Digi-Key Part" value="900-0022232021-ND"/>
-      <property name="LCSC Part #" value="snazzy"/>
+      <property name="LCSC Part #" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -464,10 +281,10 @@
       <value>4.7K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <fields>
-        <field name="Digi-Key Part">S4.7KQCT-ND</field>
+        <field name="Digi-Key Part">CF14JT4K70CT-ND</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="Digi-Key Part" value="S4.7KQCT-ND"/>
+      <property name="Digi-Key Part" value="CF14JT4K70CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -497,7 +314,7 @@
     </comp>
     <comp ref="U1">
       <value>LM7805_TO220</value>
-      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
       <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
       <fields>
         <field name="Digi-Key Part">497-12404-ND</field>
@@ -510,7 +327,7 @@
       <tstamps>7c943518-180f-47f2-bd91-ab2f40ed12f8</tstamps>
     </comp>
     <comp ref="U2">
-      <value>cui</value>
+      <value>VXO78012-1000</value>
       <footprint>Converter_DCDC:Converter_DCDC_Murata_OKI-78SR_Vertical</footprint>
       <datasheet>https://power.murata.com/data/power/oki-78sr.pdf</datasheet>
       <fields>
@@ -764,12 +581,7 @@
   </libraries>
   <nets>
     <net code="1" name="+5V">
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
@@ -785,10 +597,6 @@
     </net>
     <net code="2" name="+12V">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
@@ -806,13 +614,8 @@
       <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="3" name="-12V">
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
@@ -852,26 +655,12 @@
     </net>
     <net code="6" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
-      <node ref="C16" pin="2" pintype="passive"/>
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>

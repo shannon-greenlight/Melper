@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.1)"
     },
-    "CreationDate": "2022-12-04T20:41:48-08:00"
+    "CreationDate": "2023-01-03T01:23:30-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Melper",
       "GUID": "4d656c70-6572-42e6-9b69-6361645f7063",
-      "Revision": "rev?"
+      "Revision": "2.0"
     },
     "Size": {
       "X": 160.1,
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     }
@@ -90,24 +90,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
