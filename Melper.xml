@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>C:\Users\shann\Dropbox\moog\Melper\Melper.kicad_sch</source>
-    <date>1/26/2023 2:31:45 PM</date>
+    <date>10/20/2023 12:34:47 AM</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>The Melper</title>
         <company/>
-        <rev>2.0</rev>
+        <rev>2.1</rev>
         <date/>
         <source>Melper.kicad_sch</source>
         <comment number="1" value=""/>
@@ -173,18 +173,17 @@
       <tstamps>fd4d88ba-d2ee-4052-825b-32e4003c38f7</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Conn_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Digi-Key Part">900-0022232021-ND</field>
+        <field name="Digi-Key Part">S9171-ND</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Digi-Key Part" value="900-0022232021-ND"/>
-      <property name="LCSC Part #" value=""/>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>63fa531a-9136-4e3d-84fc-1ae41a6d815f</tstamps>
+      <tstamps>389f4b39-83b9-41dd-ac4d-706bf8723619</tstamps>
     </comp>
     <comp ref="J2">
       <value>Conn_02x08_Odd_Even</value>
@@ -250,6 +249,20 @@
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fc3943c0-562e-42ff-80b3-ee26a4c10e59</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">900-0022232021-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="900-0022232021-ND"/>
+      <property name="LCSC Part #" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Melper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63fa531a-9136-4e3d-84fc-1ae41a6d815f</tstamps>
     </comp>
     <comp ref="L1">
       <value>10uH</value>
@@ -582,6 +595,8 @@
   <nets>
     <net code="1" name="+5V">
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
@@ -598,7 +613,8 @@
     <net code="2" name="+12V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
@@ -609,6 +625,7 @@
       <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
@@ -617,6 +634,8 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -630,6 +649,8 @@
       <node ref="U2" pin="2" pinfunction="OUT" pintype="power_out"/>
     </net>
     <net code="4" name="CV">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
@@ -642,6 +663,8 @@
       <node ref="J6" pin="14" pinfunction="Pin_14" pintype="passive"/>
     </net>
     <net code="5" name="GATE">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
@@ -663,7 +686,12 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -694,6 +722,7 @@
       <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
