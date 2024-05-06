@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\shann\Dropbox\moog\Melper\Melper.kicad_sch</source>
-    <date>10/20/2023 12:34:47 AM</date>
+    <date>3/11/2024 8:43:42 AM</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -319,11 +319,54 @@
     <comp ref="TP1">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value="36-5006-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Melper.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>46d42ec2-41a1-4900-9741-6b632d1e4aaf</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value="36-5006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Melper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5502c0bc-fe0c-4e2b-abdd-d0e80e73da9e</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value="36-5006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Melper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f302d6-4994-4f01-92f0-31e0fbacc77f</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value="36-5006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Melper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3be95d49-fa5e-46e3-bc11-69011cd6682b</tstamps>
     </comp>
     <comp ref="U1">
       <value>LM7805_TO220</value>
@@ -608,6 +651,7 @@
       <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J6" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="2" name="+12V">
@@ -628,6 +672,7 @@
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="3" name="-12V">
@@ -646,6 +691,7 @@
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="OUT" pintype="power_out"/>
     </net>
     <net code="4" name="CV">

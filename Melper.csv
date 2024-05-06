@@ -11,6 +11,7 @@ J7 ,1,"Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
 L1 ,1,"10uH","Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP","","RLB0914-100KL-ND"
 R1 R3 ,2,"10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","","S10KQCT-ND"
 R2 ,1,"4.7K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","","CF14JT4K70CT-ND"
-TP1 ,1,"TestPoint","TestPoint:TestPoint_Keystone_5005-5009_Compact",""
+TP1 ,1,"TestPoint","TestPoint:TestPoint_Keystone_5005-5009_Compact","","36-5006-ND"
+TP2 TP3 TP4 ,3,"TestPoint","TestPoint:TestPoint_Pad_D2.0mm","","36-5006-ND"
 U1 ,1,"LM7805_TO220","Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown","https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF","497-12404-ND"
 U2 ,1,"VXO78012-1000","Converter_DCDC:Converter_DCDC_Murata_OKI-78SR_Vertical","https://power.murata.com/data/power/oki-78sr.pdf","102-4259-ND"
