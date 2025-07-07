@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.1)"
+      "Version": "8.0.8"
     },
-    "CreationDate": "2024-03-11T08:14:04-07:00"
+    "CreationDate": "2025-04-25T12:47:42-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Melper",
       "GUID": "4d656c70-6572-42e6-9b69-6361645f7063",
-      "Revision": "3.2"
+      "Revision": "3.5"
     },
     "Size": {
       "X": 160.1,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.508,

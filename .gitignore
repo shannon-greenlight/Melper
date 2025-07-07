@@ -1,2 +1,10 @@
-
 Melper-backups
+checkin_comment.txt
+config.csv
+docs
+changes.bat
+backit.bat
+sym-lib-table
+*.lck
+*.tmp
+~*

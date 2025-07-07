@@ -1,0 +1,42 @@
+### Footprint positions - created on 2025-04-25T12:47:53-0700 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                                      PosX       PosY       Rot  Side
+C1        10uF                 C_Disc_D5.1mm_W3.2mm_P5.00mm                              45.1000   -49.8000   90.0000  top
+C2        .1uF                 C_Disc_D4.3mm_W1.9mm_P5.00mm                              77.8000   -61.2500  180.0000  top
+C3        330pF                C_Disc_D4.3mm_W1.9mm_P5.00mm                             106.6600   -56.2400  180.0000  top
+C4        .1uF                 C_Disc_D4.3mm_W1.9mm_P5.00mm                              51.0800   -59.6200    0.0000  top
+C7        10uF                 C_Disc_D5.1mm_W3.2mm_P5.00mm                              58.9000   -78.0827  -90.0000  top
+C8        1000uF               CP_Radial_D10.0mm_P5.00mm                                 79.6500   -50.4000  -90.0000  top
+C9        100uF                CP_Radial_D6.3mm_P2.50mm                                 111.0000   -50.3500    0.0000  top
+C10       100uF                CP_Radial_D6.3mm_P2.50mm                                  83.2000   -82.2750  180.0000  top
+D1        RED_LED              LED_D3.0mm                                               181.7950   -47.0000  180.0000  top
+D2        YELLOW_LED           LED_D3.0mm                                               187.1350   -47.0000  180.0000  top
+D3        GREEN_LED            LED_D3.0mm                                               192.5450   -47.0000  180.0000  top
+D4        Red_SMT_LED          LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder            180.5750   -51.6000  180.0000  top
+D5        1N4001               D_DO-41_SOD81_P10.16mm_Horizontal                         51.0000   -45.3300    0.0000  top
+D6        1N5819               D_DO-41_SOD81_P7.62mm_Horizontal                          91.4400   -56.2600    0.0000  top
+D7        Yellow_LED           LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder            185.8500   -51.6000  180.0000  top
+D8        Blue_SMT_LED         LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder            191.2750   -51.6000  180.0000  top
+GR1       small_logo           small_face                                               145.6416   -69.8453    0.0000  top
+J1        Conn_02x08_Odd_Even  PinHeader_2x08_P2.54mm_Vertical                           48.0500   -88.2500  180.0000  top
+J2        Conn_02x08_Odd_Even  PinHeader_2x08_P2.54mm_Vertical                           72.5400   -88.2800  180.0000  top
+J3        Conn_02x08_Odd_Even  PinHeader_2x08_P2.54mm_Vertical                          102.5400   -88.2800  180.0000  top
+J4        Conn_02x08_Odd_Even  PinHeader_2x08_P2.54mm_Vertical                          132.5400   -88.2800  180.0000  top
+J5        Conn_02x08_Odd_Even  PinHeader_2x08_P2.54mm_Vertical                          162.5400   -88.2800  180.0000  top
+J6        Conn_02x08_Odd_Even  PinHeader_2x08_P2.54mm_Vertical                          192.5400   -88.2800  180.0000  top
+J7        Conn_01x02           PinHeader_1x02_P2.54mm_Vertical                           44.1000   -56.6100    0.0000  top
+L1        100uH                L_Radial_D8.7mm_P5.00mm_Fastron_07HCP                     94.1600   -47.7700  180.0000  top
+L2        1.8uH                L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC    95.3000   -61.2500  180.0000  top
+L3        1.8uH                L_Sunlord_SWPA4012S                                       88.9500   -66.1500  180.0000  top
+R1        10K                  R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal        174.2600   -57.1400   90.0000  top
+R2        4.7K                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal        191.1800   -57.0000  180.0000  top
+R3        10K                  R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal        196.1500   -47.0200  -90.0000  top
+R4        953                  R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal         99.0300   -59.3900    0.0000  top
+R5        8.2K                 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal        119.3500   -56.2700  180.0000  top
+R6        .33                  R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal        119.8200   -45.2700  180.0000  top
+TP1       TestPoint            TestPoint_Keystone_5005-5009_Compact                     121.0500   -95.2200    0.0000  top
+U1        LM7805_TO220         TO-220-3_Horizontal_TabDown                               51.0000   -49.8000  -90.0000  top
+U2        MC34063AD            DIP-8_W7.62mm_LongPads                                    99.0750   -45.2750    0.0000  top
+## End
