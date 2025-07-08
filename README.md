@@ -19,6 +19,6 @@ The repo also contains the files needed for fabrication. These are found in the 
 These include the gerber files, which are provided both as a zip file and as the full unzipped folder structure.
 Also included in the FAB folder are the files needed for pick and place.
 The .xlsx file is the pick-and-place file. It is formatted for JLCPCB.
-The raw position files are found in the # pos # folder.
+The raw position files are found in the _pos_ folder.
 
 
