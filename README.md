@@ -23,7 +23,7 @@ The raw position files are found in the _pos_ folder.
 
 # Making Changes
 The process of making changes usually starts with altering the schematic followed by other actions as required.
-This requires a properly configured KiCAD installation. Download the KiCAD [a link](https://github.com/shannon-greenlight/KiCAD) repo and follow the instructions in the README to install.
+This requires a properly configured KiCAD installation. Download the KiCAD [repo](https://github.com/shannon-greenlight/KiCAD) repo and follow the instructions in the README to install.
 The details are outlined below. Some steps are optional depending on what has changed.
 
 - Update schematic
