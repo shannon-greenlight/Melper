@@ -24,11 +24,13 @@ The raw position files are found in the _pos_ folder.
 # Specs
 The Melper derives -12V and +5V from the +12V supply.
 - -12V
+	- Voltage range: -11.75V thru -12.25V
 	- Maximum current: 200mA
 	- Line regulation: 15mV
 	- Load regulation: 20mV
 	- Ripple: 230mV
 - +5V (see - [LM7805](https://www.ti.com/lit/ds/symlink/lm7800.pdf))
+	- Voltage range: +4.8V thru +5.2V
 	- Maximum current: 500mA @ 25C (more if heat-sink is used)
 	- Line regulation: 3mV typ.
 	- Load regulation: 10mV typ.
